@@ -6,7 +6,7 @@
           <el-col>
             <img
               class="yunling"
-              src="https://img.js.design/assets/img/6242ad7767aa591c03cce0e1.jpg#76d68444a73f65fe9efe67904a8a1c00"
+              src="https://img.js.design/assets/img/622ca0e3878852393fc77cd0.png#3f651cb6766b9876d51bec466cd63330"
             />
           </el-col>
         </el-row>
@@ -131,7 +131,7 @@ export default {
       }
     }
     .yunling {
-      width: 80px;
+      width: 200px;
       height: 80px;
     }
   }

@@ -85,7 +85,9 @@ export default {
     login () {
       if (this.ruleForm.username === 'admin' && this.ruleForm.password === '123456')
       {
+
         console.log('我点击了')
+        sessionStorage.setItem("token",this.ruleForm.username)
         this.$router.push({
             path:'/TableView',
         })
